@@ -109,13 +109,17 @@ body {
     bottom: 17px;
     position: relative;
 }
-.img-box {
+.img_box {
     width: 253px;  
     height: 413px;
     background: #D9D9D9;
     margin-bottom: 69px;
     border-radius: 30px;
     overflow: hidden;
+}
+.img_box img {
+    width: 253px;
+    height: 413px;
 }
 .education {
     width: 185px;
@@ -194,6 +198,11 @@ body {
 
 .item_logo {
     margin-right: 10px;
+
+}
+.item_logo img {
+    width: 28px;
+    height: 28px;
 }
 .item_logo:hover {
     opacity: .7;
@@ -266,4 +275,8 @@ body {
 .logo p {
     font-family: Mohave;
     font-size: 24px;
+}
+.logo_box img {
+    width: 100px;
+    height: 100px;
 }
