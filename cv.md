@@ -44,6 +44,16 @@ ___
 
 ___
 
+### Code Example
+
+```JavaScript
+    const generateCardNumber = function() {
+        return Math.random().toString(16).substring(2,9+2);
+    }
+```
+
+___
+
 ### Languages
 
 * Russian (naitive)
